@@ -4,8 +4,6 @@ from google.cloud import vision
 from google.cloud.vision import types
 from PIL import Image, ImageDraw
 
-# google vision APi
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'parkgwanik-db97938c5989.json'
 # 입력, 출력 이미지
 input_file = 'image/input.jpg'
 output_file = 'image/output.jpg'
